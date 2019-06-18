@@ -1,0 +1,504 @@
+.divide40{width:100%;height:40px}
+
+.divide20{width:100%;height:20px}
+
+.box{
+  width:100%;
+  max-width:100%;
+  margin:40px;
+  padding: 0;
+}
+
+.navTabs-item {
+  display: inline-block;
+  margin: 0;
+  margin-right:10px;
+  padding: 0;
+}
+
+.navTabs::-webkit-scrollbar {
+  display: none;
+}
+
+.navTabs-list{
+  width: 200%;
+  margin-bottom: 0;
+  margin-left: 0px;
+  padding-left:25px;
+}
+
+.navTabs-anchor {
+  letter-spacing: -0.02em;
+  font-style: normal;
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+}
+
+
+
+.navTabs--metabar .navTabs-item.is-active .navTabs-anchor {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 16px;
+    margin-top:0;
+    margin-bottom: 0;
+    border-bottom: 2px rgba(0, 0, 0, 0.8) solid;
+}
+
+.title{
+  position:absolute;
+  left:50%;
+  top:55%;
+  text-align:center;
+  transform:translate(-50%, -50%);
+  color:#DBAB4C;
+  font-size:5em;
+  z-index: 1000;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.imagem {
+  padding: 0;
+  margin: 0 auto;
+  max-height: 100%;
+  width: 100%;
+}
+
+.floatdown {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ddd;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+/* List styling */
+.featureList, .featureList ul {
+  margin-top: 0;
+  padding-left: 20%;
+  list-style-type: none;
+  font-size: 20px;
+  line-height:45px;
+}
+
+.featureList li.tick:before {
+  content: "\2713";
+  color: darkgreen;
+}
+
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 40px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.google {width: 100%; background-color: #76d7c4;}
+.update {width: 100%; background-color: #d35400;}
+
+.teamwork {width: 85%; background-color: #f8c471;}
+.problem {width: 85%; background-color: #95a5a6;}
+.communication {width: 90%; background-color: #2874a6;}
+.organisation {width: 75%; background-color: #9b59b6;}
+
+
+hr.footer {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+    padding:0;
+    font-size: 20px;
+    font-family:"Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+    color: #334;
+    line-height: 1.4;
+    margin: 0px;
+}
+
+.grid {
+  max-width: 900px !important;
+}
+
+/* All highlights become red */
+::selection {
+  background: #F33446;
+  color: #FFF;
+}
+
+::-moz-selection {
+  background: #F33446;
+  color: #FFF
+}
+
+
+.coverr {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 540px;
+  width: auto;
+  height: auto;
+  margin-bottom: -100px;
+
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(0%);
+}
+
+#mobile-logo {
+  position: absolute;
+  float: left;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+
+#logo {
+  width: 35px;
+  height: auto;
+}
+
+#mobile-nav {
+  display: none;
+  text-align: right;
+  margin-top: 9px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+
+#categories ul li a.active {
+  color: #F33446;
+}
+
+.heading {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.heading-modal {
+  text-align: center;
+  font-size: 40px;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.white {
+  color: #FFF;
+}
+
+.btn i.zmdi{
+  margin-right: 3px;
+}
+
+i.fa, a, a:hover {
+  color: #F33446;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  font-weight: 400;
+  line-height: 1.33;
+  border-radius: 6px;
+  border: solid 2px #F33446;
+  background: transparent;
+  text-align: center;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #F33446;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn-lg {
+  padding: 18px 27px;
+  font-size: 20px;
+}
+
+.btn-sm {
+  padding: 14px 18px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  display: block;
+  float: right;
+
+  text-align: right;
+  background: none;
+  position: absolute;
+  bottom: 13px;
+  right: 0px;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 0px;
+  line-height: 1;
+  float: left;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.social {
+  position: relative;
+  height: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.social a {
+  position: absolute;
+  margin: 0px 2px;
+  padding: 8px;
+  border-radius: 6px;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-out;
+
+  background-color: #FFF;
+  -webkit-transition: background-color 300ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+}
+
+.social a:hover, .social a:hover div{
+  text-decoration: none;
+  background-color: #F33446;
+  color: #FFF;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.social i {
+  font-size: 60px;
+}
+
+.social div {
+  margin-top: 3px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* Modals */
+
+.modal-container {
+  background-color: transparent !important;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.modal-link > h2 {
+  color: #FFF;
+}
+
+.modal-close-main i {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  padding: 0 15px;
+
+  font-size: 35px;
+  color: grey;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  top: 100px;
+  padding-bottom: 25px;
+  background-color: white;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content img {
+  margin-bottom: 30px;
+}
+
+.modal-content .btn {
+  margin-bottom: 5px;
+}
+
+.modal-content .btn i {
+  margin-right: 5px;
+}
+
+.overlay-container {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #F33446;
+  z-index: 2;
+
+  opacity:  0;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+}
+
+.overlay i {
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 40px);
+  font-size: 90px;
+  color: white;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  margin-bottom: 14px;
+  height: 0;
+  overflow:
+  hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Portrait iphone 6+*/
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 767px) {
+
+    .box {
+        visibility: hidden;
+        display: none;
+    }
+
+    .title{
+      left:50%;
+      top:15%;
+      font-size:1.5em;
+    }
+
+    .header {
+        height: 150px;
+    }
+
+    .floatdown {
+        width: 75px;
+        height: 75px;
+    }
+
+    .featureList {
+      font-size: 15px;
+    }
+
+    .social {
+      padding-bottom: 250px;
+    }
+}
+
+@media only screen /*ipad*/
+and (min-width : 768px)
+and (max-width : 1024px) {
+
+    .box {
+        visibility: hidden;
+        display: none;
+    }
+
+  .title{
+    left:52%;
+    top:17%;
+    font-size:3em;
+  }
+
+
+  .header {
+    height: 300px;
+  }
+
+  .floatdown {
+    width: 125px;
+    height: 125px;
+  }
+
+  .social {
+    padding-bottom: 250px;
+  }
+}
