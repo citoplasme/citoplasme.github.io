@@ -1,226 +1,97 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-
-  <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-105615322-1', 'auto');
-      ga('send', 'pageview');
-
-  </script>
-
-  <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <meta name=”description” content="Personal page of University of Minho Student, João Pimentel">
-  <meta name="title" content="João Pimentel - Computer Science Student">
   <title>João Pimentel</title>
-
-  <link rel="stylesheet" href="css/pi.css">
-  <link rel="stylesheet" href="css/github.css">
-  <link rel="stylesheet" href="css/simplegrid.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#F44336">
+  <link rel="stylesheet" href="css/w3.css">
+  <link rel="stylesheet" href="css/montserrat.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+  </style>
+  <body class="w3-black">
 
-  <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="favicons/android-chrome-512x512.png">
-  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="favicons/manifest.json">
-  <link rel="shortcut icon" href="favicon.ico">
-  <meta name="msapplication-TileColor" content="#b91d47">
-  <meta name="msapplication-TileImage" content="favicons/mstile-150x150.png">
-  <meta name="msapplication-config" content="favicons/browserconfig.xml">
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-
-</head>
-
-<body id="work" onload="getRepos()">
-
-
-<!-- <h1 class="title">João Pimentel</h1> -->
-
-<div class="box">
-	<ul class="navTabs-list">
-		<li class="navTabs-item is-active"><a href="#begin"    class="navTabs-anchor">João Pimentel</a>&emsp;&emsp;&emsp;&emsp;</li>
-		<li class="navTabs-item"><a href="#about"    class="navTabs-anchor">About Me</a>&emsp;</li>
-		<li class="navTabs-item"><a href="#projects" class="navTabs-anchor">Projects</a>&emsp;</li>
-		<li class="navTabs-item"><a href="#cskills"  class="navTabs-anchor">Computer</a>&emsp;</li>
-		<li class="navTabs-item"><a href="#gskills"  class="navTabs-anchor">General</a>&emsp;</li>
-		<li class="navTabs-item"><a href="#contact"  class="navTabs-anchor">Contact</a>&emsp;</li>
-	</ul>
-</div>
-
-
-<div id="begin" class="header">
-    <img src="images/me.png" alt="my image" class="floatdown">
-    <img src="images/fallback3.jpg" alt="my image" class="imagem">
-</div>
-
-<div class="divide20"></div>
-
-<div id="about" class="grid grid-pad">
-  <div class="col-1-1" style="text-align: center">
-		<h2 class="heading">About Me</h2>
-		<div class="divide20"></div>
-
-		<p style="padding-bottom: 30px" > My name is <em><strong>João Pimentel</strong></em>, I'm 21 years old, currently on the third year of my <a href="http://miei.di.uminho.pt/" target="_blank">Integrated Master Degree in Informatics Engineering</a> at <a href="https://www.uminho.pt/EN" target="_blank">University of Minho</a>. 
-		<p style="padding-bottom: 30px" > Furthermore, I'm interested in software engineering and data science.
-		<p style="padding-bottom: 30px" > I see myself open to the idea of working overseas, as a way to learn about different cultures.
-</div>
-
-<div id="projects" style="width:75%;display:block;margin:10%;">
-	<h2 class="heading">GitHub Projects</h2>
-	<div class="divide20"></div>
-	<ul id="show"></ul>
-</div>
-
-<div id="cskills" style="width:75%;display:block;margin:10%;">
-	<h2 class="heading">Computer Skills</h2>
-	<div class="divide20"></div>
-
-	<ul class="featureList">
-		<li class="tick">Software Development</li>
-		<li class="tick">DataBase Management</li>
-		<li class="tick">REGEX</li>
-		<li class="tick">OpenGL Basics</li>
-		<li class="tick">Computer Communications and Networks</li>
-  		<li class="tick">Imperative Programming</li>
-		<li class="tick">Functional Programming</li>
-		<li class="tick">Object Oriented Programming</li>
-		<li class="tick">Debugging</li>
-	</ul>
-
-</div>
-
-<div id="gskills" style="width:75%;display:block;margin:10%;">
-		<h2 class="heading">General Skills</h2>
-		<ul style="list-style-type:square;">
-	    	<li>Teamwork</li>
-	    	<li>Problem solving</li>
-	    	<li>Communication</li>
-	    	<li>Organization</li>
-		</ul>
-</div>
-
-<div class="divide20"></div>
-<hr class="footer">
-
-<div id="contact" class="grid grid-pad">
-  <h2 class="heading">Contact</h2>
-  <div class="divide40"></div>
-  <div class="col-1-1">
-    <div class="social">
-
-      <a href="mailto:a80874@alunos.uminho.pt" title="a80874@alunos.uminho.pt" style="left: 0%; right: 75%">
-        <i class="zmdi zmdi-email"></i>
-        <div class="social-text">a80874@alunos.uminho.pt</div>
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img src="images/me.png" style="width:100%">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
       </a>
-
-      <a href="https://github.com/citoplasme" title="github.com/citoplasme" style="left: 25%; right: 50%">
-        <i class="zmdi zmdi-github-box"></i>
-        <div class="social-text">GitHub</div>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT ME</p>
       </a>
-
-      <a href="https://www.facebook.com/jony.pimentel.9" title="facebook.com/jony.pimentel.9" style="left: 50%; right: 25%">
-        <i class="zmdi zmdi-facebook-box"></i>
-        <div class="social-text">Facebook</div>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
       </a>
+    </nav>
 
-      <a href="https://www.linkedin.com/in/joão-pimentel-34074a155/" title="linkedin.com/in/joão-pimentel-34074a155/" style="left: 75%; right: 0%">
-        <i class="zmdi zmdi-linkedin-box"></i>
-        <div class="social-text">Linkedin</div>
-      </a>
-
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+      </div>
     </div>
-  </div>
-</div>
 
-<div class='divide40'></div>
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">João Pimentel</h1>
+        <p>Master's Degree Student in Software Engineering</p>
+        <img src="images/me.png" alt="João Pimentel" class="w3-image" width="800">
+      </header>
 
-<script>
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">About Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>
+          I am a Master's Degree Student at University of Minho, in Portugal. 
+          My Master's consists in two main areas: Data Science and Knowledge and Language Processing.
+          In the first area, topics such as Machine and Deep Learning, Statistical, Big Data and Quantum Computing were approached.
+          When it comes to the second area, it was based on parsers, with the use of software grammars, web development and natural language processing.
+          Currently, I am starting my thesis in Software Engineering, specifically in the area of Data Science.
+        </p>
+                
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <a href="mailto:a80874@alunos.uminho.pt" title="a80874@alunos.uminho.pt">
+          <i class="fa fa-envelope w3-hover-opacity" style="font-size: 50px;"></i>
+        </a> &nbsp;
+        <a href="https://www.facebook.com/jony.pimentel.9" title="facebook.com/jony.pimentel.9">
+          <i class="fa fa-facebook-official w3-hover-opacity" style="font-size: 50px;"></i>
+        </a> &nbsp;
+        <a href="https://github.com/citoplasme" title="github.com/citoplasme">
+          <i class="fa fa-github w3-hover-opacity" style="font-size: 50px;"></i>
+        </a> &nbsp;
+        <a href="https://www.linkedin.com/in/joão-pimentel-34074a155/" title="linkedin.com/in/joão-pimentel-34074a155/">
+          <i class="fa fa-linkedin w3-hover-opacity" style="font-size: 50px;"></i>
+        </a> &nbsp;
+      </div>
+      
+        <!-- Footer -->
+      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      <!-- End footer -->
+      </footer>
 
-		var objectsData = [];
-		var objectsDataForked = [];
-
-		function getRepos(){
-
-			var xhr = new XMLHttpRequest();
-			xhr.open("GET","https://api.github.com/users/citoplasme/repos", true);
-			xhr.send(null);
-
-			xhr.onreadystatechange = function(){
-				if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 304))
-					listRepos(xhr.responseText);
-			}
-		}
-
-		function listRepos(data){
-
-			var parsedData = JSON.parse(data);
-
-			// Get data from response to an array
-			for(var i=0; i < parsedData.length; i++){
-				var tmp = {
-					name: parsedData[i].name,
-					description: parsedData[i].description,
-					isFork: parsedData[i].fork,
-					url: parsedData[i].html_url,
-					updated_at: parsedData[i].updated_at
-				};
-
-				if(!tmp.isFork)
-					objectsData.push(tmp);
-				else
-					objectsDataForked.push(tmp);
-			}
-
-			show_page();
-		}
-
-		function show_page(){
-
-			objectsData.sort(function(a,b){
-				if (a.updated_at < b.updated_at)
-					return -1;
-				else
-					return 1;
-			});
-
-			var ul = document.getElementById('show');
-			ul.innerHTML = "";
-
-			for(var i = 0; i < objectsData.length; i++){
-				var li = document.createElement('li');
-
-				li.innerHTML = "<p>" + "<a target='_blank' href='" + 
-								objectsData[i].url + "'>" + 
-								objectsData[i].name + "</a>" + " - " +
-								objectsData[i].description + "</p>";
-
-				ul.appendChild(li);
-			}
-
-			for(var i = 0; i < objectsDataForked.length; i++){
-				var li = document.createElement('li');
-
-				li.innerHTML = "<p>" + "<a target='_blank' href='" + 
-								objectsDataForked[i].url + "'>" + 
-								objectsDataForked[i].name + "</a>" + " - (Forked) - " +
-								objectsDataForked[i].description + "</p>";
-
-				ul.appendChild(li);
-			}
-		}
-</script>	
-
-</body>
+    <!-- END PAGE CONTENT -->
+    </div>
+  </body>
 </html>
+
