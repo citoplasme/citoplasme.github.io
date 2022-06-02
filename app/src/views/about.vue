@@ -15,7 +15,7 @@
       </p>
 
       <p class="section__text">
-        I have worked as a researcher at
+        I have worked as a research assistant at
         <a href="https://www.inesctec.pt">INESCTEC</a> within the scope of the
         <a href="https://www2.ciimar.up.pt/projects.php?id=84">Nitrolimit</a>
         project alongside Professors
