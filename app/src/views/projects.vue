@@ -88,8 +88,8 @@ const projects: {
     name: "Explainable Artificial Intelligence",
     description:
       "This research line involves studying methods for helping end-users to better understand complex and frequently black-box maching learning models. Our work is currently focused on trying to explain the reasons/conditions leading to prediction errors to serve as warnings to the use of the models for critical decisions.",
-    link: "https://www.github.com/citoplasme/MScDissertation/",
-    github: "https://www.github.com/citoplasme/MScDissertation/",
+    link: "https://github.com/citoplasme/edr",
+    github: "https://github.com/citoplasme/edr",
     technologies: [
       {
         text: "R Programming Language",

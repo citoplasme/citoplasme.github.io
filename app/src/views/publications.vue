@@ -103,7 +103,7 @@ const publications: {
     abstract:
       "Machine Learning models have shown several advantages compared to humans, namely in terms of the scale of data that can be analysed, delivering high speed and precision. However, it is not always possible to understand how the used algorithms work. Consequently, the need to explain the results of these models has been increasing, leading to a boost in the relevance of explainability tools, as these enable the reduction of divergences between the interpretation of the model and the human level of reasoning. In this paper we propose Error Dependence Rules (EDRs), a combination between Distribution Rules (DRs) and Error Dependence Plots (EDPs). EDRs are model agnostic and a drill-down technique to evaluate  regression models, which consider multivariate interactions between the predictors. EDRs uncover regions of the input space with deviating performance providing an interpretable description of these regions. They can be regarded as a complementary tool to the standard reporting of the expected average predictive performance. Moreover, by providing interpretable descriptions of these specific regions, EDRs allow end users to understand the dangers of using regression tools for some specific cases that fall on these regions, i.e. they improve the accountability of models. In order to facilitate the examination of the rules, two visualisation tools based on boxplots and density plots were implemented. A network visualisation tool is also provided to rapidly check interactions of every feature condition. An additional tool is provided by using a grid of boxplots where comparison between quartiles of every distribution with a reference is performed. Based on this comparison, an extrapolation of counterfactual examples to regression was also implemented. A set of examples is described including a setting  where regression models performance is compared in detail using EDRs.",
     journal: "Expert Systems",
-    status: "Under Review",
+    status: "Accepted",
     authors: [
       {
         name: "João Pimentel",
@@ -123,7 +123,7 @@ const publications: {
     ],
     date: new Date("2022-02-24"),
     link: "",
-    github: "https://www.github.com/citoplasme/MScDissertation/",
+    github: "https://github.com/citoplasme/edr_paper_results/",
     citation: `@Article{PIM2022,
   author = {João Pimentel, Paulo J. Azevedo and Luis Torgo},
   title = {Subgroup Mining for Performance Analysis of Regression Models},
