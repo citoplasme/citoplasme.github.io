@@ -15,6 +15,13 @@
       </p>
 
       <p class="section__text">
+        Starting on January 2023, I will be a Computer Science PhD student under
+        the supervision of Professor
+        <a href="https://web.cs.dal.ca/~ltorgo/">Luís Torgo</a> at
+        <a href="https://www.dal.ca">Dalhousie University</a>.
+      </p>
+
+      <p class="section__text">
         I have worked as a research assistant at
         <a href="https://www.inesctec.pt">INESCTEC</a> within the scope of the
         <a href="https://www2.ciimar.up.pt/projects.php?id=84">Nitrolimit</a>
@@ -99,87 +106,6 @@ const education: {
     from: 2013,
     to: 2016,
     link: "https://cdds.pt",
-  },
-];
-
-const interests: {
-  name: string;
-}[] = [
-  {
-    name: "Data Science",
-  },
-  {
-    name: "Forecasting",
-  },
-  {
-    name: "Machine and Deep learning",
-  },
-  {
-    name: "Ocean Data Analytics",
-  },
-  {
-    name: "Spatial, Temporal and Spatiotemporal Data Analysis",
-  },
-];
-
-const hobbies: {
-  name: string;
-}[] = [
-  {
-    name: "Coding",
-  },
-  {
-    name: "Gaming",
-  },
-  {
-    name: "Making Videos",
-  },
-  {
-    name: "Music",
-  },
-  {
-    name: "Reading",
-  },
-  {
-    name: "Traveling",
-  },
-];
-
-const visited_places: {
-  name: string;
-}[] = [
-  {
-    name: "Cape Verde",
-  },
-  {
-    name: "Cuba",
-  },
-  {
-    name: "Dominican Republic",
-  },
-  {
-    name: "France",
-  },
-  {
-    name: "Jamaica",
-  },
-  {
-    name: "Mexico",
-  },
-  {
-    name: "Portugal",
-  },
-  {
-    name: "Spain",
-  },
-  {
-    name: "Turkey",
-  },
-  {
-    name: "United Kingdom",
-  },
-  {
-    name: "United States of America",
   },
 ];
 </script>

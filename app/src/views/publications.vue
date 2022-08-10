@@ -30,7 +30,7 @@
         </div>
         <div class="publication_journal">
           <p class="publication__text">
-            {{ publication.journal }}
+            {{ publication.journal }}, {{ publication.publisher }}
           </p>
         </div>
         <div class="publication__description">
@@ -87,6 +87,7 @@ const publications: {
   name: string;
   abstract: string;
   journal: string;
+  publisher: string;
   status: string;
   authors: {
     name: string;
@@ -101,9 +102,10 @@ const publications: {
   {
     name: "Subgroup Mining for Performance Analysis of Regression Models",
     abstract:
-      "Machine Learning models have shown several advantages compared to humans, namely in terms of the scale of data that can be analysed, delivering high speed and precision. However, it is not always possible to understand how the used algorithms work. Consequently, the need to explain the results of these models has been increasing, leading to a boost in the relevance of explainability tools, as these enable the reduction of divergences between the interpretation of the model and the human level of reasoning. In this paper we propose Error Dependence Rules (EDRs), a combination between Distribution Rules (DRs) and Error Dependence Plots (EDPs). EDRs are model agnostic and a drill-down technique to evaluate  regression models, which consider multivariate interactions between the predictors. EDRs uncover regions of the input space with deviating performance providing an interpretable description of these regions. They can be regarded as a complementary tool to the standard reporting of the expected average predictive performance. Moreover, by providing interpretable descriptions of these specific regions, EDRs allow end users to understand the dangers of using regression tools for some specific cases that fall on these regions, i.e. they improve the accountability of models. In order to facilitate the examination of the rules, two visualisation tools based on boxplots and density plots were implemented. A network visualisation tool is also provided to rapidly check interactions of every feature condition. An additional tool is provided by using a grid of boxplots where comparison between quartiles of every distribution with a reference is performed. Based on this comparison, an extrapolation of counterfactual examples to regression was also implemented. A set of examples is described including a setting  where regression models performance is compared in detail using EDRs.",
+      "Machine learning algorithms have shown several advantages compared to humans, namely in terms of the scale of data that can be analysed, delivering high speed and precision. However, it is not always possible to understand how algorithms work. As a result of the complexity of some algorithms, users started to feel the need to ask for explanations, boosting the relevance of Explainable Artificial Intelligence. This field aims to explain and interpret models with the use of specific analytical methods that usually analyse how their predicted values and/or errors behave. While prediction analysis is widely studied, performance analysis has limitations for regression models. This paper proposes a rule-based approach, Error Distribution Rules (EDRs), to uncover atypical error regions, while considering multivariate feature interactions without size restrictions. Extracting EDRs is a form of subgroup mining. EDRs are model agnostic and a drill-down technique to evaluate regression models, which consider multivariate interactions between predictors. EDRs uncover regions of the input space with deviating performance providing an interpretable description of these regions. They can be regarded as a complementary tool to the standard reporting of the expected average predictive performance. Moreover, by providing interpretable descriptions of these specific regions, EDRs allow end users to understand the dangers of using regression tools for some specific cases that fall on these regions, thaṯ is, they improve the accountability of models. The performance of several models from different problems was studied, showing that our proposal allows the analysis of many situations and direct model comparison. In order to facilitate the examination of rules, two visualization tools based on boxplots and density plots were implemented. A network visualization tool is also provided to rapidly check interactions of every feature condition. An additional tool is provided by using a grid of boxplots, where comparison between quartiles of every distribution with a reference is performed. Based on this comparison, an extrapolation of counterfactual examples to regression was also implemented. A set of examples is described, including a setting where regression models performance is compared in detail using EDRs. Specifically, the error difference between two models in a dataset is studied by deriving rules highlighting regions of the input space where model performance difference is unexpected. The application of visual tools is illustrated using EDRs examples derived from public available datasets. Also, case studies illustrating the specialization of subgroups, identification of counter factual subgroups and detecting unanticipated complex models are presented. This paper extends the state of the art by providing a method to derive explanations for model performance instead of explanations for model predictions.",
     journal: "Expert Systems",
-    status: "Accepted",
+    publisher: "Wiley",
+    status: "Published",
     authors: [
       {
         name: "João Pimentel",
@@ -124,13 +126,19 @@ const publications: {
     date: new Date("2022-02-24"),
     link: "",
     github: "https://github.com/citoplasme/edr_paper_results/",
-    citation: `@Article{PIM2022,
-  author = {João Pimentel, Paulo J. Azevedo and Luis Torgo},
-  title = {Subgroup Mining for Performance Analysis of Regression Models},
-  journal = {Expert Systems},
-  year = {2022},
-  pages = {1--32},
-}`,
+    citation: `@article{https://doi.org/10.1111/exsy.13118,
+author = {Pimentel, João and Azevedo, Paulo J. and Torgo, Luís},
+title = {Subgroup mining for performance analysis of regression models},
+journal = {Expert Systems},
+volume = {n/a},
+number = {n/a},
+pages = {e13118},
+keywords = {interpretability, machine learning, performance, regression},
+doi = {https://doi.org/10.1111/exsy.13118},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.13118},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/exsy.13118},
+}
+`,
   },
 ];
 const months: string[] = [
