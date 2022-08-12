@@ -3,7 +3,7 @@
     <div class="home">
       <div class="vertical__centered">
         <div class="home__contacts">
-          <a href="#" target="_blank" class="contact__icon">
+          <a href="https://scholar.google.com/citations?user=uBJL3xoAAAAJ" target="_blank" class="contact__icon">
             <google-scholar-icon
               :width="icon_size.value"
               :height="icon_size.value"
@@ -23,7 +23,7 @@
           </a>
           <span class="vertical__divider">|</span>
           <a
-            href="mailto:a80874@alunos.uminho.pt"
+            href="mailto:joao.pimentel@dal.ca"
             target="_blank"
             class="contact__icon"
           >

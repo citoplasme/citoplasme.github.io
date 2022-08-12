@@ -44,7 +44,7 @@
 
       <p class="section__text">
         If you have any desire to collaborate, contact me at
-        <a href="mailto:a80874@alunos.uminho.pt">a80874@alunos.uminho.pt</a>.
+        <a href="mailto:joao.pimentel@dal.ca">joao.pimentel@dal.ca</a>.
       </p>
     </div>
 
@@ -77,6 +77,16 @@ const education: {
   to: number;
   link: string;
 }[] = [
+  {
+    institution: "Dalhousie University",
+    faculty: "Faculty of Computer Science",
+    country: "Canada",
+    degree: "Doctorate Degree",
+    field: "Computer Science",
+    from: 2023,
+    to: 2027,
+    link: "https://www.dal.ca/academics/programs/graduate/computer-science/program-details/phd-program0.html",
+  },
   {
     institution: "University of Minho",
     faculty: "Faculty of Engineering",

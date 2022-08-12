@@ -4,7 +4,7 @@
       João Pimentel
     </div>
     <div class="footer__social">
-      <a href="mailto:a80874@alunos.uminho.pt" target="_blank" class="footer__icon">
+      <a href="mailto:joao.pimentel@dal.ca" target="_blank" class="footer__icon">
         <email-icon :width="icon_size.value" :height="icon_size.value" :color="'var(--third-color)'"/>
       </a>
       <a href="https://www.linkedin.com/in/joão-pimentel-34074a155/" target="_blank" class="footer__icon">
