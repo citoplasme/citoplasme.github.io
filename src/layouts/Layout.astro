@@ -1,0 +1,172 @@
+---
+export interface Props {
+	title: string;
+}
+
+const { title } = Astro.props as Props;
+
+import Navbar from '../components/navbar.astro';
+//import Footer from '../components/footer.astro';
+const items : {
+	text: string;
+	href: string;
+}[] = [
+  {
+    text: "About Me",
+    href: "/about_me"
+  },
+	{
+    text: "Education",
+    href: "/education"
+  },
+	{
+		text: "Projects",
+		href: "/projects"
+	},
+  {
+    text: "Publications",
+    href: "/publications"
+  },
+	{
+    text: "Research",
+    href: "/research"
+  },
+	{
+    text: "Teaching",
+    href: "/teaching"
+  }
+]
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta name="description" content="Software Engineer | PhD Student at Dalhousie University. Researching ocean data analytics.">
+		<meta name="author" content="João Pimentel">
+		<meta name="keywords" content="Researcher, PhD Student, Data Science, Ocean Data, Machine Learning, Deep Learning">
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Navbar items={items}/>
+		<div class="content">
+			<div class="section">
+				<slot />
+			</div>
+		</div>
+		<!--Footer/-->
+	</body>
+</html>
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+	@import url("https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css");
+	@import url("https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css");
+
+	:root {
+		--header-height: 3rem;
+    --font-semi: 600;
+		--first-color: rgb(39, 39, 39);
+		--second-color: rgb(162, 252, 122);
+		--third-color: rgb(255, 255, 255);
+		--fourth-color: rgb(246, 255, 84);
+		--fifth-color: rgb(170, 170, 170);
+		--sixth-color: rgba(24, 24, 24);
+    --body-font: "Poppins", sans-serif;
+    --big-font-size: 2rem;
+		--h1-font-size: 1.3rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+		--h4-font-size: 0.95rem;
+    --normal-font-size: 0.85rem;
+    --smaller-font-size: 0.75rem;
+		--footnote-font-size: 0.65rem;
+    --mb-0: 0.25rem;
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+    --z-back: -10;
+    --z-fixed: 100;
+  }
+  @media screen and (min-width: 968px) {
+    :root {
+      --big-font-size: 3.5rem;
+			--h1-font-size: 1.5rem;
+      --h2-font-size: 2rem;
+      --h3-font-size: 1.2rem;
+			--h4-font-size: 1.1rem;
+      --normal-font-size: 1rem;
+      --smaller-font-size: 0.875rem;
+			--footnote-font-size: 0.7rem;
+    }
+  }
+	*,
+	::before,
+	::after {
+		box-sizing: border-box;
+	}
+	html {
+		scroll-behavior: smooth;
+	}
+	body {
+		margin: 0;
+		font-family: var(--body-font);
+		font-size: var(--normal-font-size);
+		color: var(--third-color);
+		background-color: var(--first-color);
+		height: 100vh;
+		width: 100vw;
+		overflow-x: hidden;
+	}
+	:global(a) {
+    color: var(--second-color);
+    text-decoration: none;
+  }
+	:global(a:hover) {
+    text-decoration: underline;
+  }
+	:global(p) {
+		text-align: justify;
+		margin-bottom: var(--mb-2);
+		font-size: var(--normal-font-size);
+	}
+	:global(h1) {
+		margin: 0;
+	}
+	.content {
+		max-width: 1050px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 var(--mb-4);
+		padding-bottom: var(--mb-6);
+	}
+	@media screen and (max-width: 480px) {
+		.content {
+			padding: 0 var(--mb-1);
+		}
+	}
+	.section {
+		padding-top: 8rem;
+		padding-bottom: 0;
+	}
+	:global(.section__subtitle) {
+		font-size: var(--h3-font-size);
+		color: var(--third-color);
+		margin-bottom: var(--mb-0);
+		display: inline-block;
+		position: relative;
+	}
+	:global(.section__subtitle:after) {
+		content: "";
+		position: absolute;
+		width: 3rem;
+		height: 0.2rem;
+		bottom: 0;
+		left: 0;
+		border-bottom: 0.2rem solid var(--second-color);
+	}
+</style>

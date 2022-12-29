@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/sidebar.astro'
+const { frontmatter } = Astro.props;
+---
+<Layout title="Projects">
+  <div class="project">
+    <h1 class="project__title">
+      <a href={frontmatter.href} target="_blank">
+        <span class="mdi mdi-link-variant"/>
+        {frontmatter.title}
+      </a>
+    </h1>
+    <div class="project__body">
+      <slot />
+    </div>
+  </div>
+</Layout>
+<style>
+  .project {
+    background-color: var(--sixth-color);
+    padding: 1.5rem;
+    color: var(--fifth-color);
+  }
+  .project__title {
+    color: var(--second-color);
+    text-align: left;
+  }
+  .project__body {
+    text-align: justify;
+  }
+</style>

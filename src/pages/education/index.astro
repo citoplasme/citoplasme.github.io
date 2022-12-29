@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/education/list.astro';
+import Card from '../../components/card.astro';
+const degrees = await Astro.glob('./*.md');
+---
+<Layout title="Education">
+  {degrees.map(degree => 
+    <Card href={degree.url} title={degree.frontmatter.title} body={degree.frontmatter.description}/>
+  )}
+</Layout>

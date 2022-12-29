@@ -1,0 +1,37 @@
+---
+import SidebarLayout from '../../layouts/sidebar.astro';
+//const teachings = await Astro.glob('./*.md');
+---
+<SidebarLayout title="Teaching">
+  <div class="teaching">
+    <div class="vertical__centered">
+      <h1 class="teaching__title">In <span class="teaching__highlight">Progess</span></h1>
+    </div>
+  </div>
+</SidebarLayout>
+<style>
+  .teaching {
+		position: relative;
+		text-align: left;
+		margin-top: var(--mb-6);
+		height: 63vh;
+	}
+	@media screen and (max-width: 768px) {
+		.teaching {
+			height: 63vh;
+		}
+	}
+  .vertical__centered {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.teaching__title {
+		font-size: var(--big-font-size);
+	}
+  .teaching__highlight {
+    color: var(--second-color);
+  }
+</style>

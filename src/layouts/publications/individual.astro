@@ -1,0 +1,27 @@
+---
+import Layout from '../../layouts/sidebar.astro'
+const { frontmatter } = Astro.props;
+---
+<Layout title="Publications">
+  <div class="publication">
+    <h1 class="publication__title">{frontmatter.title}</h1>
+    <div class="publication__body">
+      <slot />
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .publication {
+    background-color: var(--sixth-color);
+    padding: 1.5rem;
+    color: var(--fifth-color);
+  }
+  .publication__title {
+    color: var(--second-color);
+    text-align: left;
+  }
+  .publication__body {
+    text-align: justify;
+  }
+</style>

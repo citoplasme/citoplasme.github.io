@@ -1,0 +1,17 @@
+---
+import SidebarLayout from '../layouts/sidebar.astro'
+const {frontmatter} = Astro.props;
+---
+<SidebarLayout title={frontmatter.title}>
+  <div class="about">
+    <slot />
+  </div>
+</SidebarLayout>
+
+<style>
+  .about {
+    background-color: var(--sixth-color);
+    padding: 1.5rem;
+    color: var(--fifth-color);
+  }
+</style>

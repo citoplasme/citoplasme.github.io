@@ -1,0 +1,43 @@
+---
+export interface Props {
+	title: string;
+	body: string;
+	href: string;
+}
+const { href, title, body } = Astro.props as Props;
+---
+<div class="card__outline">
+  <a href={href}>
+    <div class="card">
+      <div class="card__title">
+        { title }
+      </div>
+      <div class="card__body">
+        { body }
+      </div>
+    </div>
+  </a>
+</div>
+<style>
+  a:hover {
+    text-decoration: none;
+  }
+  .card__outline:not(:last-child) {
+    margin-bottom: var(--mb-4);
+  }
+	.card {
+    background-color: var(--sixth-color);
+    padding: 1.5rem;
+    color: var(--fifth-color);
+    text-align: left;
+  }
+  .card__title {
+    font-size: var(--h3-font-size);
+    font-weight: bold;
+    margin-bottom: var(--mb-1);
+    color: var(--second-color);
+  }
+  .card__body {
+    text-align: justify;
+  }
+</style>

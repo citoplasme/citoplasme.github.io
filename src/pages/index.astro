@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="João Pimentel | PhD Student">
+	<div class="home">
+		<div class="vertical__centered">
+			<div class="home__contacts">
+				<a href="https://scholar.google.com/citations?user=uBJL3xoAAAAJ" target="_blank" class="contact__icon">
+					<i class="ai ai-google-scholar"></i>
+				</a>
+				<a
+					href="https://orcid.org/0000-0002-5794-3451"
+					target="_blank"
+					class="contact__icon"
+				>
+					<i class="ai ai-orcid"></i>
+				</a>
+				<span class="vertical__divider">|</span>
+				<a
+					href="mailto:joao.pimentel@dal.ca"
+					target="_blank"
+					class="contact__icon"
+				>
+					<span class="mdi mdi-email"/>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/joão-pimentel-34074a155/"
+					target="_blank"
+					class="contact__icon"
+				>
+					<span class="mdi mdi-linkedin"/>
+				</a>
+				<a
+					href="https://www.github.com/citoplasme"
+					target="_blank"
+					class="contact__icon"
+				>
+					<span class="mdi mdi-github"/>
+				</a>
+			</div>
+			<h1 class="home__title">João Pimentel</h1>
+			<div class="home__divider"/>
+			<div class="home__subtitle">MSc in Software Engineering | Computer Science PhD Student <a href="https://www.dal.ca" target="_blank" class="tag">@DAL</a></div>
+			<div class="home__extra">
+				<span class="hashtag">#datamining</span>
+				<span class="hashtag">#datascience</span>
+				<span class="hashtag">#software</span>
+				<span class="hashtag">#statistics</span>
+			</div>
+		</div>
+	</div>
+</Layout>
+
+<style>
+	.home {
+		position: relative;
+		text-align: left;
+		margin-top: var(--mb-6);
+		height: 63vh;
+	}
+	@media screen and (max-width: 768px) {
+		.home {
+			height: 63vh;
+		}
+	}
+	.vertical__centered {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.home__title {
+		font-size: var(--big-font-size);
+	}
+	.home__subtitle {
+		font-size: var(--h1-font-size);
+		margin-top: var(--mb-4);
+	}
+	.home__divider {
+		position: absolute;
+		margin-top: 0;
+		margin-bottom: var(--mb-2);
+		height: 0.3rem;
+		width: 9rem;
+		background: var(--second-color);
+	}
+	.vertical__divider {
+		font-size: var(--h1-font-size);
+		position: relative;
+		top: -0.2rem;
+		margin: 0 1rem;
+	}
+	.home__extra {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: center;
+		margin-top: var(--mb-1);
+	}
+	.contact__icon {
+		position: relative;
+		font-size: 1.5rem;
+		color: var(--third-color);
+		margin: 0 var(--mb-1);
+	}
+	.contact__icon:hover {
+		position: relative;
+	}
+	.contact__icon:hover::after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 0.18rem;
+		left: 0;
+		top: 2rem;
+		background-color: var(--second-color);
+	}
+	.hashtag {
+		color: var(--second-color);
+		font-size: var(--normal-font-size);
+		margin-right: var(--mb-1);
+	}
+	.tag {
+		color: var(--second-color);
+		margin-right: var(--mb-1);
+	}
+</style>

@@ -1,0 +1,31 @@
+---
+import Layout from '../../layouts/sidebar.astro'
+const { frontmatter } = Astro.props;
+---
+<Layout title="Education">
+  <div class="degree">
+    <h1 class="degree__title">
+      <a href={frontmatter.href} target="_blank">
+        <span class="mdi mdi-link-variant"/>
+        {frontmatter.title}
+      </a> 
+      <span class="degree__field">| {frontmatter.field}</span>
+    </h1>
+    <slot />
+  </div>
+</Layout>
+<style>
+  .degree {
+    background-color: var(--sixth-color);
+    padding: 1.5rem;
+    color: var(--fifth-color);
+  }
+  .degree__title {
+    color: var(--second-color);
+    text-align: left;
+  }
+  .degree__field {
+    color: var(--third-color);
+    text-align: left;
+  }
+</style>

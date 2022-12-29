@@ -1,0 +1,37 @@
+---
+import SidebarLayout from '../../layouts/sidebar.astro';
+//const researchs = await Astro.glob('./*.md');
+---
+<SidebarLayout title="Research">
+  <div class="research">
+    <div class="vertical__centered">
+      <h1 class="research__title">In <span class="research__highlight">Progess</span></h1>
+    </div>
+  </div>
+</SidebarLayout>
+<style>
+  .research {
+		position: relative;
+		text-align: left;
+		margin-top: var(--mb-6);
+		height: 63vh;
+	}
+	@media screen and (max-width: 768px) {
+		.research {
+			height: 63vh;
+		}
+	}
+  .vertical__centered {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.research__title {
+		font-size: var(--big-font-size);
+	}
+  .research__highlight {
+    color: var(--second-color);
+  }
+</style>

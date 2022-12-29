@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/Layout.astro'
+const { title } = Astro.props;
+---
+<BaseLayout title={title}>
+  <div class="sidebar">
+    <span>{title}</span>
+  </div>
+  <slot/>
+</BaseLayout>
+<style>	
+	.sidebar {
+		position: absolute;
+		white-space: nowrap;
+		width: 0;
+		left: 4.9rem;
+		font-weight: var(--font-semi);
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		-webkit-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		transform: rotate(-90deg);
+		top: 7.4rem;
+	}
+  .sidebar span {
+		display: block;
+		float: right;
+	}
+	@media screen and (max-width: 1195px) {
+		.sidebar {
+			display: none;
+		}
+	}
+</style>

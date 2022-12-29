@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/sidebar.astro'
+const { title } = Astro.props;
+---
+<Layout title={title}>
+  <div>
+    <slot />
+  </div>
+</Layout>

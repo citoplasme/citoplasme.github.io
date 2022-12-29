@@ -1,0 +1,18 @@
+---
+import Layout from '../../layouts/publications/list.astro';
+import Timeline from '../../components/timeline.astro';
+const publications = await Astro.glob('./*.md');
+const publications_sorted = publications.sort((a, b) => Date.parse(b.frontmatter.date) - Date.parse(a.frontmatter.date));
+---
+<Layout title="Publications">
+  {publications_sorted.map(publication => 
+    <Timeline
+      href={publication.url} 
+      title={publication.frontmatter.title} 
+      status={publication.frontmatter.status}
+      date={publication.frontmatter.date_text}
+      description={publication.frontmatter.description}
+      keywords={publication.frontmatter.keywords}
+    />
+  )}
+</Layout>

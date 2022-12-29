@@ -1,0 +1,42 @@
+---
+import Layout from '../layouts/Layout.astro';
+const canonicalURL = new URL(Astro.url, Astro.site);
+---
+<Layout title="404 - Page Not Found">
+	<div class="not__found">
+    <div class="vertical__centered">
+      <h1 class="not__found__title"><span class="not__found__error__code">404:</span> Page Not Found</h1>
+      <div class="not__found__subtitle">Path: {canonicalURL.pathname}</div>
+    </div>
+  </div>
+</Layout>
+<style>
+  .not__found {
+		position: relative;
+		text-align: left;
+		margin-top: var(--mb-6);
+		height: 63vh;
+	}
+	@media screen and (max-width: 768px) {
+		.not__found {
+			height: 63vh;
+		}
+	}
+  .vertical__centered {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.not__found__title {
+		font-size: var(--big-font-size);
+	}
+  .not__found__error__code {
+    color: var(--second-color);
+  }
+	.not__found__subtitle {
+		font-size: var(--h3-font-size);
+		margin-top: var(--mb-4);
+	}
+</style>
