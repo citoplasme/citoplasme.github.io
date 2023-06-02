@@ -1,8 +1,8 @@
 ---
 layout: '../../layouts/publications/individual.astro'
 title: 'Machine Learning Interpretability in a Context of Black Box Regression Models'
-date: '2021-07-31'
-date_text: 'July 2021'
+date: '2021-08-10'
+date_text: 'August 2021'
 status: 'Published'
 type: 'MSc Dissertation'
 journal: ''
