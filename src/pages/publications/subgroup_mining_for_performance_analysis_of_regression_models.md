@@ -10,7 +10,7 @@ publisher: 'Wiley Online Library'
 description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, <a href="https://www.di.uminho.pt/~pja/" target="_blank">Paulo J. Azevedo</a> and <a href="https://web.cs.dal.ca/~ltorgo/" target="_blank">Luís Torgo</a> | Refereed Journal | <a href="https://onlinelibrary.wiley.com/journal/14680394" target="_blank">Expert Systems</a>, <a href="https://onlinelibrary.wiley.com" target="_blank">Wiley Online Library</a>'
 keywords: '#Interpretability #Machine_Learning #Performance_Analysis #Regression'
 ---
-Submitted February 2022, Accepted July 2022, Published August 2022 | [Expert Systems](https://onlinelibrary.wiley.com/journal/14680394), [Wiley Online Library](https://onlinelibrary.wiley.com) | <i class="ai ai-doi"></i> [DOI](https://doi.org/10.1111/exsy.13118)
+Submitted February 2022, Accepted July 2022, Published August 2022 | [Expert Systems](https://onlinelibrary.wiley.com/journal/14680394), [Wiley Online Library](https://onlinelibrary.wiley.com) | <i class="ai ai-doi"></i> [10.1111/exsy.13118](https://doi.org/10.1111/exsy.13118)
 
 [João Pimentel](https://web.cs.dal.ca/~pimentel/), [Paulo J. Azevedo](https://www.di.uminho.pt/~pja/) and [Luís Torgo](https://web.cs.dal.ca/~ltorgo/)
 
