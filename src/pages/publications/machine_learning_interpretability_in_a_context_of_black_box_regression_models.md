@@ -10,6 +10,8 @@ publisher: ''
 description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, supervised by <a href="https://www.di.uminho.pt/~pja/" target="_blank">Paulo J. Azevedo</a> | MSc Dissertation | <a href="https://www.eng.uminho.pt/en" target="_blank">School of Engineering</a> | <a href="https://www.uminho.pt/EN/" target="_blank">University of Minho</a>'
 keywords: '#Interpretability #Machine_Learning #Performance_Analysis #Regression'
 ---
+Submitted July 2021, Accepted July 2021, Published August 2021 | [University of Minho](https://www.uminho.pt), [RepositoriUM](https://repositorium.sdum.uminho.pt) | <i class="ai ai-doi"></i> [1822/81339](https://hdl.handle.net/1822/81339)
+
 [João Pimentel](https://web.cs.dal.ca/~pimentel/), supervised by [Paulo J. Azevedo](https://www.di.uminho.pt/~pja/)
 
 Machines have shown several advantages compared to humans, namely to reproduce and scale tasks, presenting high speed and precision. However, it is not always possible to understand how the algorithms used work. Consequently, the need to explain the results of these models has been increasing, leading to a boost in the relevance of explainability tools, as these enable the reduction of divergences between the interpretation of the model and the human level of reasoning.
