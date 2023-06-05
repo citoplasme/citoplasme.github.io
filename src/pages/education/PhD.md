@@ -2,7 +2,7 @@
 layout: '../../layouts/education/individual.astro'
 title: 'Doctor of Philosophy'
 field: 'Computer Science'
-description: 'Currently studying to obtain a doctorate degree in Computer Science at Dalhousie University.'
+description: '2023 - Present, Dalhousie University, Canada'
 href: 'https://www.dal.ca/academics/programs/graduate/computer-science/program-details/phd-program0.html'
 ---
 2023 - 2027 (Expected)
