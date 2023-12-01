@@ -18,7 +18,7 @@ Machine learning algorithms have shown several advantages compared to humans, na
 
 <h3 class="section__subtitle">Resources</h3>
 
-<span class="mdi mdi-github"/> [Resulting paper results and source code](https://github.com/citoplasme/edr_paper_results/)
+<span class="mdi mdi-github"/> [Results and source code](https://github.com/citoplasme/edr_paper_results/)
 <span class="mdi mdi-github"/> [R Package source code](https://github.com/citoplasme/edr/)
 
 <h3 class="section__subtitle">Technologies</h3>
