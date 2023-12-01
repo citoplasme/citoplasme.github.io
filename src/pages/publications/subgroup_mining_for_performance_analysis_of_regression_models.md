@@ -7,7 +7,7 @@ status: 'Published'
 type: 'Peer reviewed paper'
 journal: 'Expert Systems'
 publisher: 'Wiley Online Library'
-description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, <a href="https://www.di.uminho.pt/~pja/" target="_blank">Paulo J. Azevedo</a> and <a href="https://web.cs.dal.ca/~ltorgo/" target="_blank">Luís Torgo</a> | Refereed Journal | <a href="https://onlinelibrary.wiley.com/journal/14680394" target="_blank">Expert Systems</a>, <a href="https://onlinelibrary.wiley.com" target="_blank">Wiley Online Library</a>'
+description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, <a href="https://www.di.uminho.pt/~pja/" target="_blank">Paulo J. Azevedo</a> and <a href="https://web.cs.dal.ca/~ltorgo/" target="_blank">Luís Torgo</a> | Refereed journal | <a href="https://onlinelibrary.wiley.com/journal/14680394" target="_blank">Expert Systems</a>, <a href="https://onlinelibrary.wiley.com" target="_blank">Wiley Online Library</a>'
 keywords: '#Interpretability #Machine_Learning #Performance_Analysis #Regression'
 ---
 Submitted February 2022, Accepted July 2022, Published August 2022 | [Expert Systems](https://onlinelibrary.wiley.com/journal/14680394), [Wiley Online Library](https://onlinelibrary.wiley.com) | <i class="ai ai-doi"></i> [10.1111/exsy.13118](https://doi.org/10.1111/exsy.13118)
@@ -18,10 +18,10 @@ Machine learning algorithms have shown several advantages compared to humans, na
 
 <h3 class="section__subtitle">Resources</h3>
 
-<span class="mdi mdi-github"/> [Paper Results and Source Code](https://github.com/citoplasme/edr_paper_results/)
-<span class="mdi mdi-github"/> [R Package Source Code](https://github.com/citoplasme/edr/)
+<span class="mdi mdi-github"/> [Resulting paper results and source code](https://github.com/citoplasme/edr_paper_results/)
+<span class="mdi mdi-github"/> [R Package source code](https://github.com/citoplasme/edr/)
 
 <h3 class="section__subtitle">Technologies</h3>
 
-<span class="mdi mdi-language-r"/> [R Programming Language](https://www.r-project.org)
+<span class="mdi mdi-language-r"/> [R programming language](https://www.r-project.org)
 <span class="mdi mdi-language-r"/> [GGPlot2](https://ggplot2.tidyverse.org)

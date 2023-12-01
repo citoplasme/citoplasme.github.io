@@ -5,6 +5,6 @@ const projects = await Astro.glob('./*.md');
 ---
 <Layout title="Projects">
   {projects.map(project => 
-    <Card href={project.url} title={project.frontmatter.title} body={project.frontmatter.description}/>
+    <Card href={project.url} title={project.frontmatter.title} subtitle={project.frontmatter.status} body={project.frontmatter.description}/>
   )}
 </Layout>

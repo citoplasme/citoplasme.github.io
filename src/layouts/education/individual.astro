@@ -11,7 +11,9 @@ const { frontmatter } = Astro.props;
       </a> 
       <span class="degree__field">| {frontmatter.field}</span>
     </h1>
-    <slot />
+    <div class="degree__body">
+      <slot />
+    </div>
   </div>
 </Layout>
 <style>
@@ -27,5 +29,8 @@ const { frontmatter } = Astro.props;
   .degree__field {
     color: var(--third-color);
     text-align: left;
+  }
+  .degree__body {
+    text-align: justify;
   }
 </style>

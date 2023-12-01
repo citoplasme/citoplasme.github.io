@@ -1,16 +1,22 @@
 ---
 export interface Props {
 	title: string;
+  subtitle: string;
 	body: string;
 	href: string;
 }
-const { href, title, body } = Astro.props as Props;
+const { href, title, subtitle, body } = Astro.props as Props;
 ---
 <div class="card__outline">
   <a href={href}>
     <div class="card">
-      <div class="card__title">
-        { title }
+      <div class="card__header">
+        <div class="card__title">
+          { title }
+        </div>
+        <div class="card__subtitle">
+          { subtitle }
+        </div>
       </div>
       <div class="card__body">
         { body }
@@ -31,11 +37,23 @@ const { href, title, body } = Astro.props as Props;
     color: var(--fifth-color);
     text-align: left;
   }
-  .card__title {
+  .card__header {
+    display: flex;
+    padding-top: var(--mb-0);
+    margin-bottom: var(--mb-0);
     font-size: var(--h3-font-size);
+  }
+  .card__title {
     font-weight: bold;
     margin-bottom: var(--mb-1);
     color: var(--second-color);
+    clear: both;
+  }
+  .card__subtitle {
+    color: var(--third-color);
+    text-align: right;
+    display: inline-block;
+    flex-grow: 1;
   }
   .card__body {
     text-align: justify;

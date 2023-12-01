@@ -10,7 +10,7 @@ publisher: ''
 description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, supervised by <a href="https://www.di.uminho.pt/~pja/" target="_blank">Paulo J. Azevedo</a> | MSc Dissertation | <a href="https://www.eng.uminho.pt/en" target="_blank">School of Engineering</a> | <a href="https://www.uminho.pt/EN/" target="_blank">University of Minho</a>'
 keywords: '#Interpretability #Machine_Learning #Performance_Analysis #Regression'
 ---
-Submitted July 2021, Accepted July 2021, Published August 2021 | [University of Minho](https://www.uminho.pt), [RepositoriUM](https://repositorium.sdum.uminho.pt) | <i class="ai ai-doi"></i> [1822/81339](https://hdl.handle.net/1822/81339)
+Submitted July 2021, accepted July 2021, published August 2021 | [University of Minho](https://www.uminho.pt), [RepositoriUM](https://repositorium.sdum.uminho.pt) | <i class="ai ai-doi"></i> [1822/81339](https://hdl.handle.net/1822/81339)
 
 [João Pimentel](https://web.cs.dal.ca/~pimentel/), supervised by [Paulo J. Azevedo](https://www.di.uminho.pt/~pja/)
 
@@ -24,9 +24,11 @@ Despite the advantages compared to the existing tools, the usage of rules does n
 
 <h3 class="section__subtitle">Resources</h3>
 
-<span class="mdi mdi-github"/> [Github Repository](https://github.com/citoplasme/MScDissertation/)
+<!--span class="mdi mdi-github"/> [Github Repository](https://github.com/citoplasme/MScDissertation/) -->
+<span class="mdi mdi-github"/> [Resulting paper results and source code](https://github.com/citoplasme/edr_paper_results/)
+<span class="mdi mdi-github"/> [R Package source code](https://github.com/citoplasme/edr/)
 
 <h3 class="section__subtitle">Technologies</h3>
 
-<span class="mdi mdi-language-r"/> [R Programming Language](https://www.r-project.org)
+<span class="mdi mdi-language-r"/> [R programming language](https://www.r-project.org)
 <span class="mdi mdi-language-r"/> [GGPlot2](https://ggplot2.tidyverse.org)
