@@ -11,7 +11,7 @@ href: 'https://www.dal.ca/academics/programs/graduate/computer-science/program-d
 
 <h3 class="section__subtitle">Dissertation</h3>
 
-To Be Defined
+Bringing dynamics into traditional word co-occurrence graphs
 
 <b>Supervisor</b>: [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/)
 

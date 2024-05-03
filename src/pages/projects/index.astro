@@ -2,9 +2,10 @@
 import Layout from '../../layouts/projects/list.astro';
 import Card from '../../components/card.astro';
 const projects = await Astro.glob('./*.md');
+const projects_sorted = projects.sort((a, b) => Date.parse(b.frontmatter.start_data) - Date.parse(a.frontmatter.start_data));
 ---
 <Layout title="Projects">
-  {projects.map(project => 
+  {projects_sorted.map(project => 
     <Card href={project.url} title={project.frontmatter.title} subtitle={project.frontmatter.status} body={project.frontmatter.description}/>
   )}
 </Layout>
