@@ -1,16 +1,16 @@
 ---
 layout: '../../layouts/publications/individual.astro'
 title: 'Feature Extraction for Exoplanet Detection'
-date: '2024-04-10'
-date_text: 'April 2024'
-status: 'Accepted'
+date: '2024-05-16'
+date_text: 'May 2024'
+status: 'Published'
 type: 'Peer reviewed paper'
 journal: 'International Journal of Data Science and Analytics'
 publisher: 'Springer Nature'
 description: '<a href="https://web.cs.dal.ca/~pimentel/" target="_blank">João Pimentel</a>, <a href="https://github.com/Joana-18">Joana Amorim</a> and <a href="https://web.cs.dal.ca/~rudzicz/" target="_blank">Frank Rudzicz</a> | Refereed journal | <a href="https://link.springer.com/journal/41060" target="_blank">International Journal of Data Science and Analytics</a>, <a href="https://www.springernature.com/gp" target="_blank">Springer Nature</a>'
 keywords: '#Exoplanet_Detection #Feature_Engineering #Feature_Extraction #Machine_Learning'
 ---
-Submitted November 2023, Accepted April 2024 | [International Journal of Data Science and Analytics](https://link.springer.com/journal/41060), [Springer Nature](https://www.springernature.com/gp)
+Submitted November 2023, Accepted April 2024, Published May 2024 | [International Journal of Data Science and Analytics](https://link.springer.com/journal/41060), [Springer Nature](https://www.springernature.com/gp) | <i class="ai ai-doi"></i> [10.1007/s41060-024-00552-7](https://doi.org/10.1007/s41060-024-00552-7)
 
 [João Pimentel](https://web.cs.dal.ca/~pimentel/), [Joana Amorim](https://github.com/Joana-18) and [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/)
 
