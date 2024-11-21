@@ -1,14 +1,14 @@
 ---
 layout: '../../layouts/projects/individual.astro'
 title: 'Pregnancy-Specific Anxiety'
-description: 'Pregnancy-specific anxiety (PSA) is a distinct construct from general anxiety and depression.'
+description: 'Pregnancy-specific anxiety (PSA) is a distinct construct from general anxiety and depression. The goal of this project is to aid clinicians in the identification of depressive disorders from recordings of routine interviews during pregnancy.'
 href: 'https://pubmed.ncbi.nlm.nih.gov/37074299/'
 status: 'Member'
 start_data: '2023-08-01'
 end_date: 'Present'
 ---
 
-Pregnancy-specific anxiety (PSA) is a distinct construct from general anxiety and depression.
+Pregnancy-specific anxiety (PSA) is a distinct construct from general anxiety and depression. The goal of this project is to aid clinicians in the identification of depressive disorders from recordings of routine interviews during pregnancy.
 
 <p style="text-align: right; font-size: var(--footnote-font-size);">Pregnancy-Specific Anxiety Tool (PSAT): Instrument Development and Psychometric Evaluation | Hamideh Bayrampour et al. | <a href="https://pubmed.ncbi.nlm.nih.gov/37074299/">https://pubmed.ncbi.nlm.nih.gov/37074299/</a></p>
 

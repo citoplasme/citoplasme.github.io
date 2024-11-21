@@ -11,7 +11,7 @@ href: 'https://www.dal.ca/academics/programs/graduate/computer-science/program-d
 
 <h3 class="section__subtitle">Dissertation</h3>
 
-Bringing dynamics into traditional word co-occurrence graphs
+Bringing dynamics into traditional word co-occurrence graphs (<i>tentative title</i>)
 
 <b>Supervisor</b>: [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/)
 
@@ -19,3 +19,4 @@ Bringing dynamics into traditional word co-occurrence graphs
 
 * Data mining and warehousing
 * Doctoral directed studies
+* Research aptitude project

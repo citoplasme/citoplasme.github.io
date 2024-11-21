@@ -19,7 +19,7 @@ student.
 
 I have worked as a research assistant on several [projects](/projects) 
 alongside world renowned experts (e.g., [Frank Rudzicz](https://web.cs.dal.ca/~rudzicz/), 
-[Luís Torgo](https://web.cs.dal.ca/~ltorgo/) and [Paulo J. Azevedo](https://www.di.uminho.pt/~pja/)).
+[Luís Torgo](https://web.cs.dal.ca/~ltorgo/), and [Paulo J. Azevedo](https://www.di.uminho.pt/~pja/)).
 I have also worked as a full-stack sofware developer at
 one of biggest insurance brokers in Portugal, where I was responsible
 for the development of a web application to analyze the insurance claims
